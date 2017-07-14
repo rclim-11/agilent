@@ -1,0 +1,67 @@
+
+2017-07-03
+Reading through the documentation -- specs
+Reading through test scripts
+Tracing definitions for methods
+Reading documentation on external requirements
+
+2017-07-04
+Further reading of documentation and scripts
+Briefly look through smoke test checklist
+Observe how the software is tested for defects wrt the requirements
+Visual Studio used to edit and run code
+
+2017-07-05
+TEDotNet -- program for running scripts -- connects to device
+tmx files for organizing scripts
+Smoke vs. sanity tests
+HUT (hardware usage tracking) tests
+
+2017-07-06
+Visual Studio
+Exquisitor -- teaching, various connection methods,
+Smoke test (continuation)
+Create sequence of scripts (VS -- TM developer)
+
+
+2017-07-07
+Looked at template for test scripts
+Analyzed diagnostic script template
+Ran diagnostic tests (LP1.2, after its hardware tests)
+Several errors:
+1. closing the door? power distribution uneven
+2. software version not supported by instrument
+
+2017-07-11
+Went through orientation classes (7)
+Smoke test continuation (deleting and reinstalling protocol)
+Updated sequence 4.1, 6.1, 7
+Observe how to check if ErrorLibrary & SelfTestList.xml is the latest
+Observing export data testing (crash from sending email)
+Two sets of libraries--non integrated commands/methods.
+
+2017-07-12
+Updated bank details
+Browsed Command lib.
+Coffee talk with VP (DGG H1FY17 performance)
+	PD-L1, Immunohistochemistry (IHC), Waterfall charts, oligonucleotides, polyclonal antibodies
+	Focus on expanding to China and Mexico
+	Integrating Dako into existing Agilent infrastructure
+Tera Term -- terminal emulator
+Look through scripts for RunPro and AbortRun.
+Immunotherapy -- passive vs. active
+Polyclonal vs. monoclonal antibodies
+
+2017-07-13
+Smoke test
+Verify labware runs
+Format strings (c, d, e, and others)
+Decontamination defect -- huT (UV 63h)
+Read() vs. ReadLine()
+
+2017-07-14
+Browsed C#:
+	Dictionaries
+	Order of declarations
+	Naming -- Pascal for class and camel for variables
+	Delegates, annonymous functions, lambda expressions
