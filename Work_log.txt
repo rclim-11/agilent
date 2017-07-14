@@ -65,3 +65,4 @@ Browsed C#:
 	Order of declarations
 	Naming -- Pascal for class and camel for variables
 	Delegates, annonymous functions, lambda expressions
+Git, GitHub Desktop, Powershell -- for scripting (?) like VBScript?
