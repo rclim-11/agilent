@@ -1,0 +1,38 @@
+Business objectives:
+-project description
+-business issue?
+-approach and results
+-key learnings
+-project specifications
+-project plan?
+-deliverables
+
+
+
+
+Internship project value:
+-project management skills
+-technical skills learnt during project
+-other knowledge/skills learnt
+
+
+
+
+
+
+overview: 
+project: bluejay
+general task: testing of the touchscreen software via the use of
+		tools such as Exquisitor.
+different tests being done: smoke vs. sanity vs. actual vs. regression
+tools that are used for tests: visual studio, exquisitor(tedotnet), Exquisitor,
+		remoteAcessController,
+tools used to project management: team foundations server, checklist 
+		of smoketsts, requirement specifications, verification
+		tests (based on specs), drop folders in company network,
+				
+
+
+skills learnt: use of touchscreen (eg. browse through error logs, 
+		protocol files, bypass features via editing documents,
+		create scripts, 

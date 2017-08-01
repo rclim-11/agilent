@@ -66,3 +66,96 @@ Browsed C#:
 	Naming -- Pascal for class and camel for variables
 	Delegates, annonymous functions, lambda expressions
 Git, GitHub Desktop, Powershell -- for scripting (?) like VBScript?
+
+2017-07-17
+Run test cases using XTHS protocol and HaloPlex.
+Run testings for ?custom build (beta2)
+Verifies default services for user using HaloPlex-HS
+Run script for XTHS to verify protocol
+Verified teaching points
+Bypass Labware/Enable Error Simulation via AppSettings
+Begin script for one of the tests
+
+
+2017-07-18
+Update the firmware with a custom build.
+Delete the protocols and re-import them.
+Create my own test scripts for some of the verifications.
+Go through XTHS protocol and Decontamination procedure.
+Learn to create sequences and debug test scripts (NightTest).
+ControlSettings contain the Decontamination time.
+
+2017-07-19
+Teaching for LP2 to check for any problems (only the old Exquisitor is compatible)
+Run protocol 1-5
+Short protocol initially encountered errors due to Configuration file (true setting for requiring NaOH)
+Copy RawData, ErrorLog, DebugLog, EventLog in the event of an defect/bug.
+UserPreferences contain TipSensing.
+
+2017-07-20
+Check for correct protocol method:
+**Placed inside SetupAllSetup
+Red Cargo for updating ONLY firmware.
+Zip files contain FW, ExquisitorCompact, and Touchscreen files.
+ErrorHandling protocol run
+PCR Hot Top Compression -- speed too slow?
+AppSettings\AutoTeachSetting -- set to false to disable error.
+VerifyAutoTeaching & RunProVTP -- to verify teaching points repeated/run a protocol and verify teaching points after.
+RunDiagnostic actually verifies teaching point as well.
+
+2017-07-21
+
+
+2017-07-24
+Placed in 3 small methods:
+**ScrollUp()
+**ScrollDown()
+**GetNumOfProtocols()
+**IsProtocolViewable(string protocolname)
+The methods work together to allow RunProtocol scripts to work in the case that the list of protocol is too long
+(such that the lowest protocol is un-choosable).
+
+CNU347C0ND.mys.agilent.com (computer name of TESTPC)
+
+2017-07-25
+ErrorHandler_6 & ErrorHandler_7 display error messages due to lack of error window after error is triggered.
+RunProtocol_2 initially has an error; however further tests cannot replicate the error.
+**IsProtocolViewable edited to prevent error from occuring when # of protocols imported < 9.
+Worked on online courses -- completed 4.
+
+2017-07-26
+Worked on online courses -- completed 2.
+Attempted to figure out cause for errors for ErrorHandler_6 & ErrorHandler_7.
+New custom build -- RunPro, no message for closing tabs when protocol is finished.
+
+2017-07-27
+Worked on online courses -- completed 
+Key terms: ERS, SRS, TFS, traceability matrix, test case, test plan, 
+ERS (External Reference Specification): focuses on specific modules of the instrument (eg. Bluejay touchscreen)
+SRS (System REquirements Specification): focuses on the entire instrument as a system
+Traceability matrix: tracks requirements and makes sure requirements for current project are met; many to many
+Test case: specific to a single scenario
+Test plan: a general outline for the testing project
+http://www.ibeta.com/test-plan-vs-test-cases-whats-the-difference/
+
+2017-07-28
+Run SmokeTest for ver.1.0.1707.2751
+	-Graph PCR using multiple text files from RunTimeLog
+	-Upload test for defects (TFS)
+Forgot to uncheck readonly property of LabwareList --> unable to run protocol.
+Attended meeting --> look at minutes in email for details.
+
+2017-07-31
+Wrote method:
+**EnableIHC(bool ihcIsEnabled)
+Finalized Smoke Test results
+Tested for some defects on 1.0.1707.2751 (LP1.1)
+Observed Auto-teaching for LP1.2
+Performed user_story tests on LP2 and LP3.
+Ran HaloPlex, XTHS, and Parallel during the night.
+
+2017-08-01
+Ran sequence A_sprint_5: RunDiagnostics1-11,16.
+Some problems with the SelfTestList.
+Modified a few lines to update script to match with current firmware.
+Run through A_sprint_5 again without Exportfiles_7, 14-18.
