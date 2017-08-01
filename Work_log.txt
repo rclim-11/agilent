@@ -108,10 +108,10 @@ RunDiagnostic actually verifies teaching point as well.
 
 2017-07-24
 Placed in 3 small methods:
-**ScrollUp
-**ScrollDown
-**GetNumOfProtocols
-**IsProtocolViewable
+**ScrollUp()
+**ScrollDown()
+**GetNumOfProtocols()
+**IsProtocolViewable(string protocolname)
 The methods work together to allow RunProtocol scripts to work in the case that the list of protocol is too long
 (such that the lowest protocol is un-choosable).
 
@@ -145,4 +145,17 @@ Run SmokeTest for ver.1.0.1707.2751
 Forgot to uncheck readonly property of LabwareList --> unable to run protocol.
 Attended meeting --> look at minutes in email for details.
 
+2017-07-31
+Wrote method:
+**EnableIHC(bool ihcIsEnabled)
+Finalized Smoke Test results
+Tested for some defects on 1.0.1707.2751 (LP1.1)
+Observed Auto-teaching for LP1.2
+Performed user_story tests on LP2 and LP3.
+Ran HaloPlex, XTHS, and Parallel during the night.
 
+2017-08-01
+Ran sequence A_sprint_5: RunDiagnostics1-11,16.
+Some problems with the SelfTestList.
+Modified a few lines to update script to match with current firmware.
+Run through A_sprint_5 again without Exportfiles_7, 14-18.
