@@ -159,3 +159,38 @@ Ran sequence A_sprint_5: RunDiagnostics1-11,16.
 Some problems with the SelfTestList.
 Modified a few lines to update script to match with current firmware.
 Run through A_sprint_5 again without Exportfiles_7, 14-18.
+
+2017-08-02
+Debugged A_sprint_5.
+Made modifications to several files.
+Helped Sim run SmokeTest_2 on LP3 with indedepent Exquisitor.
+
+2017-08-03
+Continue debugging A_sprint_5.
+Wrote a variation of existing method:
+**btnLeft_1()
+Started user story again:
+1. HaloPlex (Service, abort protocol)
+2. HaloPlex (StdUser, error simulation)
+3. HaloPlex (StdUser, complete protocol)
+4. XTHS (alson/advance, complete protocol)
+Started on writing a script for user_story_3 (HaloPlex, complete protocol).
+
+2017-08-04
+Finished up 3 & 4 of user story and compiled results into respective folders.
+Finished debugging A_sprint_5 and compiled results for individual sections of sequence.
+Sent out invitation for internship presentation.
+Started on internship presentation -- powerpoint and research into content.
+
+2017-08-07
+Further debugging required on A_sprint_5.
+Modifications to:
+**RunDiagnostic_Test_CheckboxStatus (string input)
+**RunDiagnostic_TestAll_CheckboxStatus()
+**SetupAllSetup_XTHS
+Ran XTHS user story on LP1.2.
+
+2017-08-08
+Merged the two existing solutions together (CommandLib & scripts).
+Working on re-setting up version/source control for test solution.
+
