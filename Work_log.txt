@@ -76,7 +76,6 @@ Verified teaching points
 Bypass Labware/Enable Error Simulation via AppSettings
 Begin script for one of the tests
 
-
 2017-07-18
 Update the firmware with a custom build.
 Delete the protocols and re-import them.
@@ -114,7 +113,6 @@ Placed in 3 small methods:
 **IsProtocolViewable(string protocolname)
 The methods work together to allow RunProtocol scripts to work in the case that the list of protocol is too long
 (such that the lowest protocol is un-choosable).
-
 CNU347C0ND.mys.agilent.com (computer name of TESTPC)
 
 2017-07-25
@@ -204,5 +202,4 @@ Sequences ran today:
 4. SmokeTest2
 Removed email script from A_sprint_6.
 No progress made on getting source control for test scripts + further verification needed for merge solution.
-
-
+Run through A_sprint_5 again without Exportfiles_7, 14-18.
