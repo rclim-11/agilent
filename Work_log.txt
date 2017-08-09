@@ -194,3 +194,15 @@ Ran XTHS user story on LP1.2.
 Merged the two existing solutions together (CommandLib & scripts).
 Working on re-setting up version/source control for test solution.
 
+2017-08-09
+Verifying the merge solution by running several sequences.
+One conflict between the scripts and the firmware is the BypassHardware property --> scripts did not reset the property to false.
+Sequences ran today:
+1. A_sprint_4
+2. A_sprint_5
+3. A_sprint_6
+4. SmokeTest2
+Removed email script from A_sprint_6.
+No progress made on getting source control for test scripts + further verification needed for merge solution.
+
+
