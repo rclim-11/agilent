@@ -23,7 +23,6 @@ Exquisitor -- teaching, various connection methods,
 Smoke test (continuation)
 Create sequence of scripts (VS -- TM developer)
 
-
 2017-07-07
 Looked at template for test scripts
 Analyzed diagnostic script template
@@ -113,6 +112,7 @@ Placed in 3 small methods:
 **IsProtocolViewable(string protocolname)
 The methods work together to allow RunProtocol scripts to work in the case that the list of protocol is too long
 (such that the lowest protocol is un-choosable).
+
 CNU347C0ND.mys.agilent.com (computer name of TESTPC)
 
 2017-07-25
@@ -127,10 +127,10 @@ Attempted to figure out cause for errors for ErrorHandler_6 & ErrorHandler_7.
 New custom build -- RunPro, no message for closing tabs when protocol is finished.
 
 2017-07-27
-Worked on online courses -- completed 
+Worked on online courses -- completed ???
 Key terms: ERS, SRS, TFS, traceability matrix, test case, test plan, 
 ERS (External Reference Specification): focuses on specific modules of the instrument (eg. Bluejay touchscreen)
-SRS (System REquirements Specification): focuses on the entire instrument as a system
+SRS (System Requirements Specification): focuses on the entire instrument as a system
 Traceability matrix: tracks requirements and makes sure requirements for current project are met; many to many
 Test case: specific to a single scenario
 Test plan: a general outline for the testing project
@@ -161,7 +161,7 @@ Run through A_sprint_5 again without Exportfiles_7, 14-18.
 2017-08-02
 Debugged A_sprint_5.
 Made modifications to several files.
-Helped Sim run SmokeTest_2 on LP3 with indedepent Exquisitor.
+Helped Sim run SmokeTest_2 on LP3 with independent Exquisitor.
 
 2017-08-03
 Continue debugging A_sprint_5.
@@ -185,7 +185,7 @@ Further debugging required on A_sprint_5.
 Modifications to:
 **RunDiagnostic_Test_CheckboxStatus (string input)
 **RunDiagnostic_TestAll_CheckboxStatus()
-**SetupAllSetup_XTHS
+**SetupAllSetup_XTHS()
 Ran XTHS user story on LP1.2.
 
 2017-08-08
@@ -202,4 +202,53 @@ Sequences ran today:
 4. SmokeTest2
 Removed email script from A_sprint_6.
 No progress made on getting source control for test scripts + further verification needed for merge solution.
-Run through A_sprint_5 again without Exportfiles_7, 14-18.
+
+2017-08-10
+Documentation options:
+*Sphinx (reStructuredText) 
+*Daring Fireball (Markdown)
+*Latex
+Sidenote: Sphinx also supports Latex
+
+2017-08-11
+Halfday due to Annual Dinner.
+Worked on verifying several test cases using Keam Seng's build:
+1. RunDiagnostic
+2. DiagnosticRptExplorer
+3. IHC
+Created an Excel sheet to keep track of verification on R1A scripts.
+
+2017-08-14
+Convert some test cases to scripts (specifically 356600 - 356609) w/ Chi Han.
+Added method:
+**RebootReconnect()
+
+2017-08-15
+Successfully get source control back onto 1/2 test PCs with latest test scripts.
+Chi Han finishes automating the test cases for IHC and Autoteaching.
+
+2017-08-16
+Connected 2/2 test PCs to source control.
+Straighten out some weird issues with executing the solution after using source control:
+-Executable file not pointed to in debug settings
+-TMX file unconnected from designer CS file; thus sequences don't update
+Updated solution with scripts and modifications by Chi Han.
+
+2017-08-17
+Practiced coding C# with Code Wars.
+Reviewed internship presentation.
+Feedback:
+-Highs vs. lows
+-Sometimes the mundane tasks are necessary as these are what gives the project its foundation.
+
+2017-08-18
+Wrote scripts for ERS-010, specifically:
+-CaptureSize_18
+-CaptureSize_17
+-CaptureSize_16
+-CaptureSize_15
+-CaptureSize_14
+-CaptureSize_13
+Added method:
+**RP_ReplaceCaptureSize(string protocolName, string protocolVer, string newCapSize)
+Chi Han added some scripts and new methods relating to Capture Size.
