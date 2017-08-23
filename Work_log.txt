@@ -252,3 +252,24 @@ Wrote scripts for ERS-010, specifically:
 Added method:
 **RP_ReplaceCaptureSize(string protocolName, string protocolVer, string newCapSize)
 Chi Han added some scripts and new methods relating to Capture Size.
+
+2018-08-21
+Ran smoke test for ver.1.0.1708.1851
+
+2018-08-22
+Night test failed due to intermittent issue with encoding(?).
+Verified that issue with ByPassHardware is fixed in latest release (dasboard_8 & verifyLabware).
+Finished up smoke test checklist.
+Finishing up CaptureSize scripts.
+Added method:
+**CheckErrorLog(string errorWarning)
+
+2018-08-23
+Performed tests for ver.1.0.1708.2331:
+-EMC test
+-IHC automation
+-RunDiagnostic automation
+-BHTP Sanity (w/ tips)
+Continued working on CaptureSize scripts.
+Verified that CheckErrorLog can read the ErrorLog files.
+Could not verify the ReplaceCaptureSize method.
