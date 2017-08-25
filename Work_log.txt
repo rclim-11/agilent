@@ -273,3 +273,7 @@ Performed tests for ver.1.0.1708.2331:
 Continued working on CaptureSize scripts.
 Verified that CheckErrorLog can read the ErrorLog files.
 Could not verify the ReplaceCaptureSize method.
+
+2017-08-14
+Finished running IHC, SelfDiag, and BHTP on LP2 w/ ver.1.0.1708.2331.
+Made modifications to **ReplaceCaptureSize(...) -- not yet verified.
